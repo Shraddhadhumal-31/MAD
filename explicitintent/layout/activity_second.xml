@@ -7,8 +7,10 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Second Activity"
+        android:text="Result"
         android:textSize="24sp"/>
+
 </LinearLayout>
