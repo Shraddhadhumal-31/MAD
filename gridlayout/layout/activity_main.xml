@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="10dp"
+    android:alignmentMode="alignMargins"
+    android:useDefaultMargins="true"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Red"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Blue"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Green"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Yellow"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Cyan"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Magenta"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Gray"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Black"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+</GridLayout>
